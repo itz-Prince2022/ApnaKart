@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    background: url('../images/rm314-adj-05-a.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body > h2 {
+    color: white;
+}
+
+.container {
+    /* border: 3px solid red; */
+    border-radius: 8px;
+    /* padding: 1rem; */
+    /* background-color: rgb(225, 182, 182); */
+    background-color: rgb(249, 248, 248);
+}
+
+form {
+    /* background-color: lightblue; */
+    background-color: rgb(229, 229, 231);
+    padding: 1rem;
+    border-radius: 6px;
+    /* margin-left: 2rem; */
+    /* border-end-end-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px; */
+    margin: 3rem 1rem 3rem 1rem;
+    transform: rotate(368deg);
+    /* border: 1px solid black; */
+    box-shadow: 1px 2px 20px 1px rgb(169, 170, 171);
+}
+
+td {
+    font-size: 1.1rem;
+    padding: .3rem;
+}
+
+input {
+    padding: .5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid rgb(173, 171, 171);
+}
+
+input:hover {
+    border: 1px solid black;
+}
+
+input[type="submit"] {
+    /* background-color: red; */
+    background-color: black;
+    color: rgb(227, 225, 225);
+    cursor: pointer;
+    border-radius: 30px;
+    padding: .7rem 2rem;
+    border:2px solid gray;
+}
+
+h2 {
+    position: absolute;
+    top: 3rem;
+    font-size: 2rem;
+    font-size: 5vw;
+}
+
+span {
+    color: rgb(255, 60, 60);
+    font-weight: 800;
+    font-size: 2.2rem;
+    font-size: 8vw;
+}
+
+input[type="reset"] {
+    /* background-color: rgb(255, 128, 0); */
+    color: white;
+    cursor: pointer;
+    background-color: rgb(28, 73, 126);
+    border-radius: 30px;
+    padding: .7rem 2rem;
+    border:2px solid gray;
+}
+
+.headline {
+    font-size: 1.3rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 2px 1px 20px 2px ;
+    transform: rotate(355deg);
+    /* transform:translate(30px); */
+    /* transition: all ease 1s; */
+    /* background: transparent; */
+    background:rgba(252, 249, 249, 0.603);
+}
+
+.avatar {
+    height: 180px;
+}
+
+.logodiv {
+    text-align: center;
+}
+
+.logodiv>h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 800;
+}
+
+.logodiv > a {
+    color: rgb(254, 254, 255);
+    /* opacity: .3; */
+}

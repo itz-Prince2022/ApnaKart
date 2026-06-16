@@ -1,0 +1,49 @@
+
+.footer-main{
+    /* display: flex; */
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1.4rem;
+    background-color: #212121;
+    color: rgb(255, 255, 255);
+    font-size: .8rem;
+    font-weight: 600;
+    line-height: 1.19rem;
+}
+
+.footer-main h3{
+     color: #989898;
+     margin-bottom: .59rem;
+     font-weight: 300;
+     font-size: .98rem;
+}
+
+.footer-main ul li{
+    list-style: none;
+}
+/* .inside-footer-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+
+.telephone-no{
+    color: royalblue;
+}
+
+
+@media (min-width:1200px) {
+    .footer-main{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .inside-footer-li{
+        border-left: 1.5px solid gray;
+        padding-left: 2rem;
+    }
+}
+
+.inside-li{
+    font-size: .799rem !important;
+    font-weight: 400 !important;
+}

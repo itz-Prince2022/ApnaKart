@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/stylesheet/stylelogin.css">
+</head>
+
+<body>
+    <!-- <h2>Welcome back to <span>Coding Club</span></h2> -->
+    <!-- <p>Please Enter the details to login</p> -->
+    <div class="container">
+        <div class="logodiv">
+            <img class="avatar" src="../images/—Pngtree—customer login avatar_6015290.png" alt="login avatar" />
+            <h3>Sign In</h3>
+            <h4>Don't have account?</h4>
+            <a href="/register">Sign Up!</a>
+        </div>
+        <form action="/login" method="post">
+            <table>
+                <tr>
+                    <td class="headline"><label for="name">Username:</label></td>
+                    <td><input type="text" name="name" id="name" autofocus/>
+                    <td>
+                <tr>
+                <tr>
+                    <td class="headline"><label for="email">Email:</label></td>
+                    <td><input type="email" name="email" id="email" /></td>
+                <tr>
+                <tr>
+                    <td class="headline"><label for="password">Password:</label></td>
+                    <td><input type="password" name="password" id="password" /></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="LOGIN" />
+                    <td><input type="reset" value="Reset" />
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../javascript/scriptlogin.js" type="text/javascript"></script>
+</body>
+
+</html>

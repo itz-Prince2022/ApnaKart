@@ -1,0 +1,13 @@
+.main-page-div{
+    /* background-color: red; */
+    overflow: scroll;
+    padding: 1rem;
+    /* position: relative;
+    top: -37.2rem; */
+    position: relative;
+    top: -2rem;
+}
+
+.main-page-div::-webkit-scrollbar{
+    display: none;
+}

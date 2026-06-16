@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/stylesheet/styleregister.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <img class="loginimg" src="../images/—Pngtree—customer login avatar_6015290.png" alt="login avatar"/>
+            <h2>Sign In</h2>
+            <h3>Already have a user account?</h3>
+            <a href="/login">Login!</a>
+        </div>
+    <form action="/register" method="post" Content-Type="application/json">
+        <table>
+        <tr><td>Name:</td><td><input type="text" name="name" /></td></tr>
+        <tr><td>Email:</td><td><input type="email" name="email" /></td></tr>
+        <tr><td>Phone:</td><td><input type="number" name="phone" /></td></tr>
+        <tr><td>Work:</td><td><input type="text" name="work" /></td></tr>
+        <tr><td>Password:</td><td><input type="password" name="password" /></td></tr>
+        <tr><td>Cpassword:</td><td><input type="text" name="cpassword" /></td></tr>
+        <tr><td><input type="submit" value="Register" /></td><td><input type="reset" value="Reset" /></td></tr>
+        </table>
+    </form>
+    </div>
+</body>
+</html>

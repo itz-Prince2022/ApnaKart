@@ -1,0 +1,252 @@
+/* *{
+    font-family: 'Kanit', sans-serif; 
+     font-family: 'Ubuntu', sans-serif;
+} */
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    /* gap:2rem; */
+    align-items: center;
+    justify-content: space-around;
+    padding: .9rem .3rem;
+    background: white;
+    position: relative;
+    z-index: 1;
+}
+
+.nav-container form {
+    /* border: 2px solid black; */
+    background-color: rgb(237, 246, 253);
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: .55rem;
+    width: 43%;
+    padding: .5rem;
+    border-radius: 8px;
+    color: lightslategrey;
+}
+
+.logo {
+    padding: 0 0 0 .7rem;
+    /* border: 3px solid black; */
+    cursor: default;
+}
+
+.logo-color {
+    color: royalblue;
+}
+
+/* this is for search bar */
+.nav-container form input[type="search"] {
+    border: none;
+    background:  rgb(237, 246, 253);
+    font-weight: 500;
+    font-size: 1.18rem;
+    width: 100%;
+    /* border: 0; */
+    /* -webkit-appearance: none; */
+    cursor: default;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    /*this code is  used to add three dots on search bar*/
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.nav-container form input[type="search"]:focus{
+    /* border: none; */
+    outline: none!important;
+
+}
+
+.ri-search-line {
+    font-weight: lighter;
+}
+
+.size {
+    font-size: 1.38rem;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+    margin-left: 4rem;
+}
+
+.more {
+    padding: .55rem;
+}
+
+.more:hover {
+    border: 1px solid rgb(194, 194, 194);
+    padding: .5rem;
+    border-radius: 5px;
+    background-color: rgb(247, 247, 247);
+}
+
+.nav-user {
+    padding: .6rem .4rem;
+}
+
+.nav-user:hover{
+    background-color: royalblue;
+    border-radius: 8px;
+    color: white;
+}
+
+.navbar-link {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.more-cursor {
+    padding: .5rem .6rem;
+    margin:0;
+    list-style: none;
+    font-size: .95rem;
+    color: rgb(66, 68, 70);
+}
+
+.more-cursor:hover {
+    /* background-color: rgb(236, 244, 254); */
+    background-color: rgb(245, 245, 245);
+}
+
+
+.more-cursor-last:hover{
+    background-color: rgb(245, 245, 245);
+    border-radius: 0 0 8px 8px;
+    margin: 0;
+}
+
+.nav-list-img {
+    padding: .5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.ri-arrow-down-s-line-before {
+    display: inline-block;
+    transform: rotate(0deg);
+    transition: all ease .15s;
+}
+
+.ri-arrow-down-s-line-after{
+    display: inline-block;
+    transform: rotate(180deg);
+    transition: all ease .15s;
+    /* color: red; */
+}
+
+.test-nav , .drop-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    right: .9rem;
+    top: 3.6rem;
+    box-shadow: 1px 1px 9px 1px lightslategray;
+    border-radius: 0 0 7px 7px;
+}
+
+.ri-more-2-fill:hover .test-nav{
+    display: block;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.drop-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    right: 4.5rem;
+    top: 3.65rem;
+    box-shadow: 1px 1px 9px 1px lightslategray;
+    border-radius: 0 0 7px 7px;
+}
+
+.nav-user:hover .drop-menu {
+    display: block;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ri-arrow-down-s-line {
+    display: inline-block;
+    transform: rotate(0deg);
+}
+
+.nav-user:hover .ri-arrow-down-s-line{ /*when i hover on user it will change in arrow rotate*/
+    color: white;
+    display: inline-block;
+    transform: rotate(180deg);
+    transition: all ease .25s;
+}
+
+.navbar-link-signup {
+    color: royalblue;
+    text-decoration: none;
+    font-weight: 900;
+    margin-left: 4.1rem;
+    font-size: 1.14rem;
+    padding: .3rem;
+}
+
+@media (min-width:1200px) {
+    .ri-store-2-line::after {
+          content: "  Become a seller";
+          font-size: 1.15rem;
+          font-family: 'Kanit', sans-serif;
+          /* font-family: 'Ubuntu', sans-serif; */
+          font-weight: 600;
+          font-family: 'Poppins', sans-serif;
+    }
+
+    .ri-user-line::after {
+          content: " Sign in";
+          font-size: 1.1rem;
+          font-weight: 600;
+          font-family: 'Poppins', sans-serif;
+    }
+
+    .ri-shopping-cart-2-line::after {
+          content: " Cart";
+          font-size: 1.1rem;
+          font-weight: 600;
+          font-family: 'Poppins', sans-serif;
+    }
+}
+
+.more-menu {
+     display: none;
+} 
+
+.more-menu-after-click {
+    display: block;
+    position: absolute;
+    top: 3.6rem;
+    right: 1.5rem;
+    background-color: white;
+    box-shadow: 1px 1px 9px 1px lightslategray;
+    border-radius: 0 0 7px 7px;
+    /* padding: .5rem; */
+    /* border: 3px solid black; */
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+/*
+.more-menu{
+    display: block;
+} */
+
+body::-webkit-scrollbar {
+    display: none; 
+}

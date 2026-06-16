@@ -1,0 +1,29 @@
+#pickyourStyle-main{
+    background-color: white;
+    margin-top: var(--div-gap);
+    /* margin: 0 1rem;
+    position: relative;
+    top: -8rem;
+    height: 0; */
+    font-size: 1.2vw;
+}
+
+/* @media (min-width:1000px) {
+    #pickyourStyle-main{
+        top: -8.5rem;
+    }
+} */
+/* 
+.testpick{
+    background-color: rgb(255, 255, 255);
+} */
+
+.img-div-pickstyle{
+    /* height: 50%; */
+    width: 100%;
+    overflow: hidden;
+}
+
+.electronics-items::-webkit-scrollbar{
+    display: none;
+}

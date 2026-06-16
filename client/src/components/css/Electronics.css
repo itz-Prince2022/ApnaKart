@@ -1,0 +1,99 @@
+.electronic-main-section {
+    position: relative;
+    /* height: 0; */
+    /* top: 4rem; */
+}
+
+#Electronics-container {
+    /* margin: -.8rem 1rem 0 1rem; */
+    background-color: white;
+    box-shadow: 0 0 5px 0px rgb(233, 233, 233);
+    cursor: pointer;
+    /* position: relative;
+    top: -35.4rem; */
+}
+
+.Electronics-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem .6rem;
+}
+
+.Electronics-h3 {
+    font-size: 1.66rem;
+}
+
+.Electronics-header a {
+    text-decoration: none;
+}
+
+.electronics-arrow {
+    color: royalblue;
+    font-size: 2.2rem;
+}
+
+.Electronic-scroller {
+    display: grid;
+    grid-auto-flow: column;
+    /* grid-auto-columns: 15%; */
+
+    gap: 1em;
+
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+
+    padding: .6rem;
+}
+
+.Electronic-scroller::-webkit-scrollbar {
+    display: none;
+}
+
+.Electronic-scroller img {
+    width: 100%;
+    height: 90%;
+    padding: .4rem;
+}
+
+.shaver-img {
+    height: 75%;
+    width: 40%;
+}
+
+.powerbank {
+    width: 90%;
+    height: 70%;
+}
+
+.electronics-items {
+    width: 14.5vw;
+    height: 18.5vw;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    overflow: auto;
+    text-align: center;
+}
+
+
+
+
+@media (max-width:1100px) {
+    .electronics-items {
+        width: 18vw;
+        height: 25vw;
+    }
+
+}
+
+@media (min-width:1200px) {
+    
+    .electronics-items img:hover {
+        height: 10.9rem;
+        /* width: 8.1rem; */
+    }
+}

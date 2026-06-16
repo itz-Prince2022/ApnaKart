@@ -1,0 +1,10 @@
+:root{
+    --div-gap:1.4rem;
+}
+
+.Home-Kitchen-main{
+    margin-top: var(--div-gap);
+    /* position: relative;
+    top: 2rem;
+    height: 0; */
+}

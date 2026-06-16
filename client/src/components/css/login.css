@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.loginbody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 3px solid red; */
+    background-color: rgb(249, 247, 245);
+    height: 90vh;
+    color: white;
+    font-size: 1.2rem;
+    position: relative;
+    cursor: default;
+    /* background: url('../images/—Pngtree—customer login avatar_6015290.png'); */
+}
+
+.containerlogin {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 3px solid red; */
+    /* background-color: rgb(171, 183, 196); */
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+.logodivlogin{
+    padding: 0 2rem;
+    background-color: rgb(31, 115, 249);
+    /* border-radius: .3rem; */
+    /* margin-right: 1rem; */
+    color: black;
+    /* background: url('../images/—Pngtree—customer login avatar_6015290.png'); */
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* height: 18rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 110%;
+    /* padding: 0 6.3rem; */
+    width: 23rem;
+    box-shadow: 1px 1px 4px 2px lightslategrey;
+}
+
+@media (max-width:600px){
+    .containerlogin {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+}
+
+.headline {
+    padding: .2rem;
+}
+
+.loginform input {
+    padding: .4rem;
+    font-size: 1.1rem;
+    border-radius: 6px;
+}
+
+.loginfieldset {
+    border: 3px solid white;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.login-submit-btn {
+        /* background-color: red; */
+       position: absolute;
+        background-color: rgb(255, 118, 6);
+        color: rgb(255, 254, 254);
+        cursor: pointer;
+        border-radius: 30px;
+        padding: .7rem 2rem;
+        border:2px solid gray;
+        padding: 2rem 4rem;
+        height: 4rem;
+        width: 20rem;
+}
+
+.login-reset-btn {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(39, 85, 138);
+    border-radius: 30px;
+    padding: .7rem 2rem;
+    border:2px solid gray;
+}
+
+.logodivlogin a {
+    color: rgb(253, 105, 52);
+    font-weight: 550;
+}
+
+.logodivlogin a:hover {
+    color: rgb(253, 121, 121);
+}
+
+.login-page-dont-have-account {
+    margin-top: 1.99rem;
+    font-size: 1.01rem;
+}
+
+.login-page-dont-have-account2 {
+    font-size: 1.01rem;
+}
+
+.logodivlogin h3 {
+    font-size: 2.3rem;
+    display: inline-block;
+    transform: rotate(0deg);
+    /* transform: scale(1.5,1.5); */
+    color: white;
+    padding: 1.5rem;
+}
+
+.logodivlogin h3:hover {
+    display: inline-block;
+    color: rgb(89, 91, 94);
+    transform: rotate(360deg);
+    transition: all ease .4s;
+    cursor: default;
+}
+
+.logodivlogin h4 {
+    color: white;
+    font-weight: 400;
+}
+
+.loginfieldset  input[type="text"], input[type="email"], input[type="password"] {
+    background-color: rgb(242, 245, 251);
+}
+
+.containerlogin {
+    height: 83vh;
+}
+
+.loginform {
+    background-color: rgb(255, 255, 255);
+    height: 81.9vh;
+    color: black;
+    box-shadow: 1px 1px 10px 1px lightslategrey;
+}
+
+.loginfieldset legend {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.login-img {
+    height: 150px;
+}

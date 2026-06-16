@@ -1,0 +1,184 @@
+.item-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* gap: 2.5vw; */
+    overflow-y:hidden;
+    overflow-x: scroll;
+    margin: 0 1rem 0 1rem;
+    /* padding: .6rem; */
+    scroll-behavior: smooth;
+    margin-top: .81rem;
+    /* background-color: #dd2525; */
+    box-shadow: 1px 1px 10px 5px rgb(240, 238, 238);
+    padding-bottom: 1.5rem;
+
+    height: 100vh;
+    /* overflow-clip-margin: 100vh !important;
+    overflow: clip !important; */
+}
+
+/* .item-container {
+    position: relative;
+    margin: 0 1rem 0 1rem; */
+    /* padding: .6rem; */
+    /* margin-top: .81rem;
+    display: grid;
+    gap: 0;
+    grid-auto-flow: column; */
+    /* grid-auto-columns: 16%; */
+    /* overflow-x: scroll; */
+    /* scroll-snap-type: x mandatory; */
+    /* scroll-padding: 1rem; */
+    /* scroll-snap-align: start; */
+    /* overflow-y: hidden;
+    height: 100vh;
+} */
+
+.scroll-main{
+    position: relative;
+    height: 9.5rem;
+}
+
+
+.item-container::-webkit-scrollbar{
+    display: none;
+}
+
+.items {
+    width: 100px;
+    height: 130px;
+    font-size: .75rem;
+    font-weight: 100 !important;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 3.6rem;
+    background-color: #ffffff;
+    padding-top: 4.2rem;
+    padding-bottom: 5.5rem;
+
+    /* background-color: #ffff;
+    padding: 0 4rem;
+    font-size: .75rem;
+    height: 160px;
+    padding-bottom: 3rem; */
+}
+
+h3{
+    display: inline-flex;
+}
+
+/* h3 {
+    position: absolute;
+    top: 6rem;
+} */
+
+.items img {
+    height: 67px;
+
+}
+
+.fashion-extended-info {
+    display: none;
+    list-style: none;
+    border-radius: 8px;
+    box-shadow: 1px 10px 30px 2px lightslategray;
+}
+
+.fashion-extended-info > option{
+    padding: 1rem;
+    /* color: red; */
+    padding: 100px !important;
+    font-size: 1.1rem;
+
+}
+
+.fashion-extended-info li {
+    padding: .8rem;
+    width: 15rem;
+}
+
+.fashion-extended-info li:hover {
+    background-color: rgb(233, 243, 252);
+    border-radius: 8px;
+}
+
+.fashion-items:hover .fashion-extended-info{
+    display: inline-block;
+    /* display: list-item; */
+    background-color: white;
+    position: absolute;
+    /* top: 12.5rem; */
+    top: 7.9rem;
+    z-index: 10;
+}
+
+.fashionh-home-furniture{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fashion-items:hover .fashionh3 {
+    color: royalblue;
+}
+
+.arrow-rotate-in-items {
+    display: inline-block;
+    transform: rotate(0deg);
+    transition: all ease .25s;
+    font-size: 1.14rem;
+    margin: 0 0 0 .16rem;
+}
+
+.fashion-items:hover .arrow-rotate-in-items {
+    display: inline-block;
+    transform: rotate(-180deg);
+}
+
+.test-ul{
+    display: none;
+    position: absolute;
+    top: 0;
+    left:100%;
+    list-style: none;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 1px 1px 30px 2px lightslategray;
+}
+
+.list-hover-elements:hover .test-ul{
+    display: block;
+}
+
+@media (min-width:1000px) {
+    /* .item-container { */
+        /* gap: .5rem; */
+        /* padding: 0 5rem 0 5rem; */
+        /* padding: 0 11rem; */
+        /* margin: .81rem 12rem 0 12rem; */
+        /* display: flex;
+        justify-content: center; */
+    /* } */
+
+    /* .items { */
+        /* width: 150px; */
+        /* padding: 0 83.75px;
+        padding-bottom: 1rem;
+    } */
+   
+    /* h3 {
+        position: absolute;
+        top: 7.1rem;
+    }
+  */
+  .items {
+    /* padding: 0 5vw; */
+    padding-left: 5.23rem;
+    padding-right: 5.22rem;
+  }
+}
